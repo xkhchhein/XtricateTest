@@ -2047,9 +2047,6 @@ IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
         <Field Name="PIncludeVAT">
           <DataField>PIncludeVAT</DataField>
         </Field>
-        <Field Name="SalePerson">
-          <DataField>SalePerson</DataField>
-        </Field>
         <Field Name="Name">
           <DataField>Name</DataField>
         </Field>
@@ -2073,9 +2070,6 @@ IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
         </Field>
         <Field Name="Contact">
           <DataField>Contact</DataField>
-        </Field>
-        <Field Name="SalesPersonNames">
-          <DataField>SalesPersonNames</DataField>
         </Field>
         <Field Name="No_">
           <DataField>No_</DataField>

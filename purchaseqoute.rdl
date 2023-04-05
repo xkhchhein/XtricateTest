@@ -882,39 +882,6 @@ IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="No_">
-          <DataField>No_</DataField>
-        </Field>
-        <Field Name="Name">
-          <DataField>Name</DataField>
-        </Field>
-        <Field Name="Name2">
-          <DataField>Name2</DataField>
-        </Field>
-        <Field Name="SearchName">
-          <DataField>SearchName</DataField>
-        </Field>
-        <Field Name="City">
-          <DataField>City</DataField>
-        </Field>
-        <Field Name="CountryRegionCode">
-          <DataField>CountryRegionCode</DataField>
-        </Field>
-        <Field Name="County">
-          <DataField>County</DataField>
-        </Field>
-        <Field Name="PostCode">
-          <DataField>PostCode</DataField>
-        </Field>
-        <Field Name="Address">
-          <DataField>Address</DataField>
-        </Field>
-        <Field Name="Address2">
-          <DataField>Address2</DataField>
-        </Field>
-        <Field Name="Description">
-          <DataField>Description</DataField>
-        </Field>
         <Field Name="Name_cm">
           <DataField>Name_cm</DataField>
         </Field>

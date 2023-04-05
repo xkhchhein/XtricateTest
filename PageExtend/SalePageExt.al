@@ -4,15 +4,22 @@ pageextension 50121 SaleQuote extends "Sales Quotes"
     {
         // Add changes to page layout here
         moveafter("Sell-to Contact"; "Bill-to Name")
-        //moveafter("Sell-to Contact"; "Ship-to Name")
         moveafter("Sell-to Contact"; "Sell-to Customer Name")
         modify("External Document No.")
         {
             Visible = false;
         }
-        addafter("Sell-to Contact")
+        modify("Posting Date")
         {
-
+            Visible = false;
+        }
+        modify("Assigned User ID")
+        {
+            Visible = false;
+        }
+        modify("Quote Valid Until Date")
+        {
+            Visible = false;
         }
     }
 
