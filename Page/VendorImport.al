@@ -80,7 +80,7 @@ page 50104 Vendor
                 ToolTip = 'Export To Excel Sheet';
 
                 trigger OnAction()
-                
+
                 begin
                     //Message('Do You want to Export?');
                     ExportExcel(Rec);
@@ -163,7 +163,7 @@ page 50104 Vendor
                 Evaluate(GSImportBuffer."Balance Due (LCY)", GetValueAtCell(RowNo, 5));
                 Evaluate(GSImportBuffer."Payments (LCY)", GetValueAtCell(RowNo, 6));
                 //GSImportBuffer."Sheet Name" := SheetName;
-               //GSImportBuffer.Imported_Time := time;
+                //GSImportBuffer.Imported_Time := time;
                 GSImportBuffer.Insert();
             end else begin//if it's existed
                 GSImportBuffer.Validate(Name, Name);
